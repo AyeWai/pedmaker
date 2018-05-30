@@ -1,0 +1,12 @@
+Package: pedmaker
+Title: Automatized Pedigree Maker 
+Version: 0.0.0.9000
+Authors@R: c(person("Chris", "Simon", email = "chris.simon@univ-tlse3.fr", role = "cre"), person("Laura", "Gervais", email = "laura.gervais@inra.fr", role = "aut"))
+Description: Creates LifeHistData files and build pedigrees faster
+Depends: R (>= 3.3.2)
+Imports: Hmisc,readxl,stringr,RPostgreSQL,sequoia, rgdal
+License: GPL-2
+Encoding: UTF-8
+LazyLoad: true
+Published : 2018-04-13
+RoxygenNote: 6.0.1
